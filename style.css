@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5% 1%;
+  height: 68px;
+  width: 98%;
+  position: relative;
+  font-family: 'Gelasio', serif;
+}
+header .link {
+  position: absolute;
+  left: 1%;
+  display: flex;
+}
+header .link a {
+  height: auto;
+  text-decoration: none;
+  margin: 0 5%;
+}
+header .link a .twitter {
+  font-size: 43px;
+  color: #00acee;
+}
+header .link a .pixiv-img {
+  margin-top: 3px;
+  width: 80px;
+}
+header ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  width: 20%;
+}
+header ul li {
+    margin: 0 10%;
+}
+header ul li a {
+    text-decoration: none;
+    color: #333333;
+}
+.main {
+    display: flex;
+    justify-content: center;
+    background: #fffde9;
+}
+footer {
+    height: 300px;
+    position: relative;
+}
+footer p {
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    text-align: left;
+    font-size: 13px;
+}
