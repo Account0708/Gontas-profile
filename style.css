@@ -84,11 +84,10 @@ footer p {
   }
   .main {
     width: 100%;
-    height: auto;
+    
   }
   .main img {
-    width: 100%;
-    height: auto;
+    width: 350px;
   }
   footer {
     width: 100%;
