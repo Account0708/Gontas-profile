@@ -96,3 +96,42 @@ footer p {
     width: 100%;
   }
 }
+.main-gallery {
+  padding: 0 1%;
+  background: #fffde9;
+}
+.main-gallery h2 {
+  font-family: "Gelasio", serif;
+  text-align: center;
+  font-weight: lighter;
+  padding: 2% 0;
+}
+.main-gallery .list-gallery {
+  display: flex;
+  justify-content: center;
+
+}
+.main-gallery .list-gallery ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.main-gallery .list-gallery ul li {
+  width: 15%;
+  display: flex;
+  align-items: center;
+  padding: 1%;
+  background: #fffde9;
+}
+.main-gallery .list-gallery ul li img {
+  width: 100%;
+}
+@media screen and (max-width: 750px) {
+  .main-gallery {
+    padding: 0;
+  }
+  .main-gallery .list-gallery ul li {
+    width: 45%;
+  }
+}
