@@ -10,7 +10,7 @@ header {
   height: 68px;
   width: 98%;
   position: relative;
-  font-family: 'Gelasio', serif;
+  font-family: "Gelasio", serif;
 }
 header .link {
   position: absolute;
@@ -37,25 +37,63 @@ header ul {
   width: 20%;
 }
 header ul li {
-    margin: 0 10%;
+  margin: 0 10%;
 }
 header ul li a {
-    text-decoration: none;
-    color: #333333;
+  text-decoration: none;
+  color: #333333;
 }
 .main {
-    display: flex;
-    justify-content: center;
-    background: #fffde9;
+  display: flex;
+  justify-content: center;
+  background: #fffde9;
 }
 footer {
-    height: 300px;
-    position: relative;
+  height: 300px;
+  position: relative;
 }
 footer p {
-    position: absolute;
-    bottom: 5%;
-    left: 50%;
-    text-align: left;
-    font-size: 13px;
+  position: absolute;
+  bottom: 5%;
+  width: 100%;
+  text-align: center;
+  font-size: 13px;
+}
+@media screen and (max-width: 750px) {
+  body {
+    height: 100%;
+  }
+  header {
+    background: #fffde9;
+    align-items: flex-start;
+    height: 100px;
+  }
+  header .link {
+    left: 0;
+  }
+  header ul {
+    width: auto;
+    height: 100%;
+    align-items: flex-end;
+    margin: 0;
+  }
+  header ul li {
+    width: 100%;
+    text-align: center;
+    font-size: auto;
+  }
+  .main {
+    width: 100%;
+  }
+  .main img {
+    width: 100%;
+  }
+  footer {
+    width: 100%;
+    height: 150px;
+  }
+  footer p {
+    text-align: center;
+    width: 100%;
+  }
 }
